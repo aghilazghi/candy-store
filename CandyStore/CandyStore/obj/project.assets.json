@@ -8,29 +8,34 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\AMINE\\.nuget\\packages\\": {},
+    "C:\\Users\\amine.ghilazghi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMINE\\source\\repos\\candy-store\\CandyStore\\CandyStore\\CandyStore.csproj",
+      "projectUniqueName": "C:\\Users\\amine.ghilazghi\\source\\repos\\candy-store\\CandyStore\\CandyStore\\CandyStore.csproj",
       "projectName": "CandyStore",
-      "projectPath": "C:\\Users\\AMINE\\source\\repos\\candy-store\\CandyStore\\CandyStore\\CandyStore.csproj",
-      "packagesPath": "C:\\Users\\AMINE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMINE\\source\\repos\\candy-store\\CandyStore\\CandyStore\\obj\\",
+      "projectPath": "C:\\Users\\amine.ghilazghi\\source\\repos\\candy-store\\CandyStore\\CandyStore\\CandyStore.csproj",
+      "packagesPath": "C:\\Users\\amine.ghilazghi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\amine.ghilazghi\\source\\repos\\candy-store\\CandyStore\\CandyStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AMINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\amine.ghilazghi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -65,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,7 +7,7 @@ namespace CandyStore.Models
 {
     public class CandyRepository : ICandyRepository
     {
-        private readonly ICategoryReposkitory _categoryRepository = new CategoryRepository();
+        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
         public IEnumerable<Candy> GetAllCandies => new List<Candy> 
         {
             new Candy 

@@ -18,7 +18,7 @@ namespace CandyStore
         {
             services.AddControllersWithViews();
             services.AddScoped<ICandyRepository, CandyRepository>();
-            services.AddScoped<ICategoryReposkitory, CategoryRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

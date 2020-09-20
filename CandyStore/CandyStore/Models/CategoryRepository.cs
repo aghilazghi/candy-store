@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CandyStore.Models
 {
-    public class CategoryRepository : ICategoryReposkitory
+    public class CategoryRepository : ICategoryRepository
     {      
         public IEnumerable<Category> GetAllCategories => new List<Category>
         {
