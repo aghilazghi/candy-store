@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CandyStore.ViewModels;
 
 namespace CandyStore.Controllers
 {
@@ -18,9 +19,15 @@ namespace CandyStore.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public ViewResult List()
+        public IActionResult List()
         {
-            return View(_candyRepository.GetAllCandies);
+            var candyListViewModel = new CandyListViewModel
+            {
+                Candies = _candyRepository.GetAllCandies,
+                CurrentCategory = "Best Sellers"
+            };
+
+            return View(candyListViewModel);
         }
     }
 }
