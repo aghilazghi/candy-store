@@ -104,3 +104,4 @@ C:\Users\amine.ghilazghi\source\repos\candy-store\CandyStore\CandyStore\obj\Debu
 C:\Users\amine.ghilazghi\source\repos\candy-store\CandyStore\CandyStore\obj\Debug\netcoreapp3.1\CandyStore.csprojAssemblyReference.cache
 C:\Users\amine.ghilazghi\source\repos\candy-store\CandyStore\CandyStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\amine.ghilazghi\source\repos\candy-store\CandyStore\CandyStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\amine.ghilazghi\source\repos\candy-store\CandyStore\CandyStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
